@@ -18,6 +18,5 @@ regressor.fit(X, y)
 pickle.dump(regressor, open("model.pkl", "wb"))  # 序列化模型（存盘）
 
 model = pickle.load(open("model.pkl", "rb"))  # 反序列化模型（再导入模型）
-print(model)
 
 print(model.predict([[300, 800]]))  # 进行一个预测
