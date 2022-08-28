@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 
-df_ads = pd.read_csv("../ysxhwxrw.csv")
+df_ads = pd.read_csv("./ysxhwxrw.csv")
 
 df_ads["转发数"].fillna(df_ads["点赞数"], inplace=True)
 
