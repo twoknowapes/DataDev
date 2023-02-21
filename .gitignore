@@ -148,3 +148,7 @@ static
 .vscode/
 
 creditcard.csv
+
+# Javascript
+node_modules/
+package.json
