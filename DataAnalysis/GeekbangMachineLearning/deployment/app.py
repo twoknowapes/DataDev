@@ -20,7 +20,8 @@ def predict():  # 启动预测页面
 
     output = round(prediction[0], 2)  # 输出预测结果
 
-    return render_template("index.html", prediction_text="浏览量 {}".format(int(output)))
+    return render_template("index.html",
+                           prediction_text="浏览量 {}".format(int(output)))
 
 
 if __name__ == "__main__":
